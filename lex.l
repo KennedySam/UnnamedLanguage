@@ -17,6 +17,7 @@ digit		0|[1-9][0-9]*
 "def"			{ return DEFINE; }
 "var"			{ return VAR; }
 "con"			{ return CON; }
+"return"		{ return RETURN;}
 
 ":"				{ return COLON; }
 ";"				{ return SEMICOLON; }
